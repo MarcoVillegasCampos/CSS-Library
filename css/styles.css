@@ -1,0 +1,188 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+
+
+  .mainContainer{
+      width: 1000px;
+  }
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  #Search{
+    background-color: rgb(238, 238, 238);
+    color: rgb(129, 214, 203);
+    padding: 10px 20px;
+    border-radius: 40px;
+    border-color:rgb(104, 243, 224);
+    position: inline;
+    display: block;
+    margin: 20px;
+    border-style:solid;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    
+  
+    
+
+
+}
+.col{
+    background-color: lightseagreen;
+    flex:1;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+
+*{
+    font-family: 'Roboto';
+    src: url(./../fonts/Roboto-Italic.ttf)
+
+}
+
+
+
+div{
+    
+    display: flex;
+    align-content: space-between;
+    
+    background-color: gray;
+
+    
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.nav-links{
+
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    list-style: none;
+    color: white;
+    margin-left: 890px;
+
+    
+
+
+}
+
+.nav-title{
+    color: white;
+}
+
+
+
+.nav-links a{
+
+ 
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-left: 40px;
+    text-decoration: none;
+
+
+
+
+}
+.btn{
+    margin-left: 40px;
+    color: white;
+    background-color: turquoise;
+    box-shadow:5px black;
+
+}
+
+h1{
+    margin-left: 10px;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    
+    
+ 
+    
+}
+
+
+
+
+
+
+
+
+.like-btn {
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+}
+
+
+
+.row { 
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+
+
+
+
+
+.box {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 40px;
+    border: 2px solid #999;
+}
+
+.someUser {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+  
+}
+
+
+
+
+
+.like-btn {
+    background-color: #ffd966;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.box h2 {
+    font-size: 1.7rem;
+}
+
